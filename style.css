@@ -22,7 +22,7 @@
     width: 100px;
 }
 .logo{
-    background-image: url(../img/amazon_logo.png);
+    background-image: url(./img/amazon_logo.png);
     background-size: cover;
     height: 60px;
     width: 100%;
@@ -101,7 +101,7 @@
     height: 30px;
 }
 .country-icon{ 
-     background: url(../img/united-states.png);
+     background: url(./img/united-states.png);
      background-size: cover;
      width: 25.6px;
      height: 16px;
@@ -174,7 +174,7 @@ span{
 
 /* hero section */
 .hero-section{
-    background-image: url(../img/heroImages_.jpg);
+    background-image: url(./img/heroImages_.jpg);
     box-shadow: inset;
     height: 320px;
     background-size: cover;
@@ -290,7 +290,7 @@ ul a{
         justify-content: center;
     }
 .logo{
-    background-image: url(../img/amazon_logo.png);
+    background-image: url(./img/amazon_logo.png);
     background-size: cover;
     height: 60px;
     width: 100px;
