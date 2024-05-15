@@ -240,6 +240,22 @@ span{
     color: red;
 }
 
+
+
+.back-to-top-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 11rem;
+    height: 3rem;
+    color: white;
+    padding: 0.25rem;
+}
+
+
+
 /* footer panel */
 
 footer{
@@ -319,4 +335,147 @@ ul a{
     text-align: center;
     border-style: dotted;
     
+}
+
+
+
+/* Phone view */
+
+@media only screen and (max-width : 600px){
+
+
+/* navbar */
+
+    .nav-logo{
+        height: 37px;
+        width: 32px;
+    }
+    .logo {
+        background: url(./img/amazon_logo.png) no-repeat scroll;
+        background-size: cover;
+        height: 25px;
+        width: 39px;
+        background-size: 33px 33px;
+    }
+
+    .add-first {
+        font-size: 8.89px;
+        margin-left: 3px;
+    }
+
+    .add-second {
+        font-size: 12px;
+        margin-left: 3px;
+    }
+
+    .add-icon {
+           font-size: 10px;
+    }
+
+    
+    .navsearch {
+    width: 96px;
+    height: 28px;
+    }
+
+    .search-icon {
+        width: 22px;
+        font-size: 13px;
+    }
+    .search-select{
+        padding: 0px;
+    }
+
+    .search-input{
+        font-size: 14px;
+    }
+
+    .navcountry{
+        display: none;
+    }
+
+    .nav-signin,.nav-signin span{
+        font-size: 10px;
+    }
+
+    .nav-return {
+        font-size: 10px;
+    }
+
+    .nav-cart {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-cart p{
+        height: 20px;
+    }
+
+    .nav-cart i{
+        font-size: 18px;
+    }
+
+
+    .panel-opt {
+        display: flex;
+        width: 66%;
+    }
+    
+    .panel-opt p {
+        display: inline;
+        padding: 9px 5px;
+        font-size: 9px;
+    }
+
+    .panel-deals {
+        font-size: 9px;
+        padding: 0px 0px;
+    }
+
+
+    /* hero section */
+    .hero-section {
+        background-image: url(./img/heroImages_.jpg);
+        box-shadow: inset;
+        height: 164px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+  .hero-msg {
+    padding: 0px 2px;
+    height: 13px;
+    font-size: 5px;
+    width: 93%;
+}
+    
+
+    /* shop section */
+
+    .box {
+        height: 373px;
+        width: 94.5%;
+}
+
+    /* footer  */
+
+
+   footer ul{
+        margin: 10px;
+    }
+
+     ul a{
+        font-size: 10px;
+    }
+
+    ul p{
+        font-size: 14px;
+    }
+
+    .foot-panel3{
+        height: 32px;
+    }
+
 }
